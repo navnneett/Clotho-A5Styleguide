@@ -144,8 +144,10 @@ export default function Graphics() {
                         </div>
                     </div>
                 </div>
+                <div className={styles.footer}>
+                    <Footer/>
+                </div>
             </main>
-            <Footer/>
         </>
     )
 }

@@ -72,8 +72,10 @@ export default function Layout() {
                         </div>
                     </div>
                 </div>
+                <div className={styles.footer}>
+                    <Footer/>
+                </div>
             </main>
-            <Footer/>
         </>
     )
 }

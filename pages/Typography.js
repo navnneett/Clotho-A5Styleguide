@@ -21,7 +21,7 @@ export default function Typography() {
                 <div className={styles.middle}>
                     <div className={styles.Box}>
                         <div>
-                            <h2>OpenSans</h2>
+                            <h2>Open Sans</h2>
                             <div className={styles.type}>
                                 <p className={styles.openSanRegular}>Regular</p>
                                 <p className={styles.openSanSemibold}>Semibold</p>
@@ -51,7 +51,7 @@ export default function Typography() {
 
                     <div className={styles.Box}>
                         <div>
-                            <h2 className={styles.roboto}>Roboto</h2>
+                            <h2 className={styles.roboto}>Roboto Slab</h2>
                             <div className={styles.type}>
                                 <p className={styles.robotoRegular}>Regular</p>
                                 <p className={styles.robotoSemibold}>Semibold</p>
@@ -102,8 +102,12 @@ export default function Typography() {
                         </div>
                     </div>
                 </div>
+
+                <div className={styles.footer}>
+                        <Footer/>
+                </div>
             </main>
-            <Footer />
+            
         </>
     )
 }

@@ -7,10 +7,14 @@ import Navigation from "@/components/Navigation";
 export default function Logo() {
     return(
         <>
-            <main>
+            <Navigation/>
+            <main className={`${styles.main}`}>
 
+
+                <div className={styles.footer}>
+                        <Footer/>
+                </div>
             </main>
-            <Footer/>
         </>
     )
 }
