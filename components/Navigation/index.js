@@ -6,27 +6,32 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <Link href="/">
+          <Link href="/" style={{textDecoration: 'none', color: 'var(--black)'}}>
             Home
           </Link>
         </li>
         <li>
-          <Link href="/about">
+          <Link href="/Logo" style={{textDecoration: 'none', color: 'var(--black)'}}>
             Logo
           </Link>
         </li>
         <li>
-          <Link href="/contact">
+          <Link href="/Color" style={{textDecoration: 'none', color: 'var(--black)'}}>
             Colours
           </Link>
         </li>
         <li>
-          <Link href="/contact">
+          <Link href="/Typography" style={{textDecoration: 'none', color: 'var(--black)'}}>
             Typography
           </Link>
         </li>
         <li>
-          <Link href="/contact">
+          <Link href="/Layout" style={{textDecoration: 'none', color: 'var(--black)'}}>
+            Layout
+          </Link>
+        </li>
+        <li>
+          <Link href="/Graphics" style={{textDecoration: 'none', color: 'var(--black)'}}>
             Graphics
           </Link>
         </li>

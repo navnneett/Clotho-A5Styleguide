@@ -1,8 +1,36 @@
 .main {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 9rem;
   min-height: 20vh;
+  font-family: "Roboto Slab";
 }
+
+.title {
+  font-size: 250%;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.author {
+  font-size: 20px;
+  color: var(--button-highlight-light);
+  font-weight: 600;
+  text-align: center;
+}
+
+.left {
+  margin-right: 3rem;
+}
+
+.bio {
+  width: 35vw;
+  line-height: 150%;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+
+
