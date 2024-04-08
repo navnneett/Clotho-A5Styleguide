@@ -4,8 +4,11 @@
     left: 0;
     right: 0;
     background-image: linear-gradient(var(--button-linear-light));
-    padding: 20px 0; 
+    padding: 20px 5rem 20px 5rem; 
     text-align: center;
+    font-family: var(--roboto-slab-text);
+    font-weight: 450;
+    font-size: 20px;
   }
   
   .navbar ul {
@@ -18,5 +21,11 @@
   
   .navbar li {
     display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: var(--black);
+    margin: 0;
+    padding: 0;
   }
   
+

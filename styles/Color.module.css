@@ -1,0 +1,133 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 12rem 0 12rem;
+    min-height: 20vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    background:linear-gradient(180deg, #03164C 65.4%, #494EAC 94.14%);
+    color: white;
+}
+
+.paragraph {
+    padding-left: 13rem;
+    padding-right: 13rem;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.note {
+    width: 500px;
+    line-height: 150%;
+    text-align: justify;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.colorCard {
+    width: 150px;
+    height: 170px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #E4F4FF;
+    background: rgb(245, 244, 255);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.colorHolder {
+    width: 150px;
+    height: 125px;
+    flex-shrink: 0;
+    border: 1.5px solid #cdcdcd;
+}
+
+.colorinfo {
+    color: #000;
+    text-align: right;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.text {
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: 90%;
+}
+
+.purple {
+    background: #8229E0;
+}
+
+.white {
+    background: white;
+}
+
+.blue {
+    background: #D6EFFF;
+}
+
+.yellow {
+    background: #FDF9D8;
+}
+
+.pink {
+    background: #FFD6FF;
+}
+
+.violet {
+    background: #B399FF;
+}
+
+.taro {
+    background: #D098EA;
+}
+
+.lavender {
+    background: #B8C0FF;
+}
+
+.buttonLight {
+    background: linear-gradient(72deg, rgba(221, 184, 255, 0.80) -21.71%, rgba(214, 239, 255, 0.80) 86.69%);
+}
+
+.buttonDark{
+    background: linear-gradient(47deg, #D6EFFF 36.99%, #B8C0FF 96.43%);
+}
+
+.navLight {
+    background: linear-gradient(100deg, rgba(221, 184, 255, 0.80) -23.98%, rgba(214, 239, 255, 0.80) 83.97%);
+}
+
+.navDark {
+    background: linear-gradient(100deg, rgba(141, 150, 239, 0.50) -13.7%, rgba(208, 152, 234, 0.55) 80.54%);
+}
+
+.reLight {
+    background: linear-gradient(5deg, #D6EFFF 2.24%, rgba(221, 184, 255, 0.90) 52.3%);
+}
+
+.reDark {
+    background: linear-gradient(5deg, #D6EFFF 2.24%, rgba(184, 192, 255, 0.90) 52.3%);
+}
+
+.middle {
+    width: 72vw;
+    margin-top: 5rem;
+}
+
+.footer {
+    margin-top: 10rem;
+}
