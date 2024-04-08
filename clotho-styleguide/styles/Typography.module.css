@@ -1,0 +1,156 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 12rem 6rem 12rem;
+    min-height: 20vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+}
+
+.paragraph {
+    padding-left: 13rem;
+    padding-right: 13rem;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.Box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+
+.type{
+    padding-right: 15px ;
+    padding-left: 15px;
+    font-size: 80%;
+}
+
+.letter {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    letter-spacing: 4.5px;
+}
+
+.letterS {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    letter-spacing: 5px;
+    font-family: "Roboto Slab";
+}
+
+.roboto {
+    font-family: "Roboto Slab";
+}
+
+.space {
+    width: 10rem;
+}
+
+.openSanSemibold {
+    font-weight: 550;
+}
+
+.openSanBold {
+    font-weight: 800;
+    font-family: "Roboto Slab";
+}
+
+.robotoSemibold {
+    font-weight: 600;
+    font-family: "Roboto Slab";
+}
+
+.bottom {
+    margin: 4rem 0 2rem 0;
+    text-align: left;
+}
+
+/* Text scale */
+
+.scale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textScale {
+    margin-right: 2rem;
+}
+
+.textScaleRight {
+    margin-left: 2rem;
+}
+
+.OpenSans_Semibold_36px {
+    font-weight: 550;
+    font-size: 36px;
+}
+
+.OpenSans_Semibold_30px {
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.OpenSans_Regular_30px {
+    font-size: 30px;
+}
+
+.OpenSans_Semibold_24px {
+    font-weight: 550;
+    font-size: 24px;
+}
+
+.OpenSans_Regular_24px {
+    font-size: 24px;
+}
+
+.OpenSans_Regular_22px {
+    font-size: 22px;
+}
+
+.OpenSans_Regular_20px {
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.OpenSans_Bold_16px {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.OpenSans_Semibold_16px {
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.OpenSans_Regular_16px {
+    font-size: 16px;
+}
+
+.OpenSans_Regular_14px {
+    font-size: 14px;
+}
+
+.Roboto_Semibold_36px {
+    font-weight: 550;
+    font-size: 36px;
+    font-family: "Roboto Slab";
+}
+
+.Roboto_Regular_30px {
+    font-size: 30px;
+    font-family: "Roboto Slab";
+}
+
+
