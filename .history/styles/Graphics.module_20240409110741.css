@@ -1,0 +1,143 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 12rem 0 12rem;
+    min-height: 20vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    background:linear-gradient(180deg, #03164C 65.4%, #494EAC 94.14%);
+    color: white;
+}
+
+.navBar {
+    padding-left: 180px;
+}
+
+.content {
+    padding-left: 13rem;
+    padding-right: 13rem;
+    line-height: 150%;
+    font-size: var(--font-regular);
+    text-align: justify;
+}
+
+.explanation p,
+.experience p {
+    font-size: var(--font-regular);
+    line-height: 150%;
+    text-align: justify;
+}
+
+.twoColumns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 75px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+.icons svg {
+    padding-bottom: 85px;
+}
+
+.icons svg:first-child {
+    padding-top: 20px;
+}
+
+.icons svg:last-child {
+    padding-bottom: 40px;
+}
+
+.plus {
+    padding-top: 20px;
+}
+
+.collection {
+    padding-top: 30px;
+}
+
+.community {
+    padding-top: 30px;
+}
+
+.subTitle {
+    padding-top: 45px;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.rating {
+    padding-left: 20px;
+}
+
+.categories {
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+.graphics {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 40px;
+}
+
+.sectionHeader {
+    padding-top: 80px;
+}
+
+.subHeading {
+    padding-top: 20px;
+}
+
+.frames {
+    padding-top: 160px;
+    padding-left: 20px;
+}
+
+.placeHolder {
+    margin-top: 120px;
+}
+
+.placeHolderSmall {
+    margin-top: 30px;
+}
+
+.footer {
+    margin-top: 10rem;
+}
+
+.coll {
+    padding: 5px 0 5px 0;
+}
+
+.smallIcon {
+    padding: 5px 15px 5px 15px;
+}
+
+.iconChart {
+    padding-top: 4rem;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
