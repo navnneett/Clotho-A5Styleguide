@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Graphics": "pages/Graphics.js",
+  "/Typography": "pages/Typography.js",
   "/Layout": "pages/Layout.js",
-  "/Color": "pages/Color.js"
+  "/Graphics": "pages/Graphics.js"
 }
