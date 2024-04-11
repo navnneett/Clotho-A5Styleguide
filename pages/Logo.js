@@ -7,7 +7,14 @@ import Navigation from "@/components/Navigation";
 export default function Logo() {
     return(
         <>
+        <Head>
+        <title>Clotho Styleguide</title>
+        <meta name="Clotho styleguide" content="The styleguide of Clotho" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/favicon-48x48.ico" />
+      </Head>
             <Navigation/>
+
             
             <main className={`${styles.main}`}>
 
@@ -25,7 +32,7 @@ export default function Logo() {
                     <li>Cat Whiskers and Ears: The addition of cat whiskers and ears on the letter "C" emphasizes the app's mascot, creating an identity with the playful and whimsical gradient colours.</li>
                     <li>Tie in Place of "L": The "L" replaced by a tie shows a clothing theme, aligning with the app's focus on wardrobe content.</li>
                     <li>Bow Tie: The bow tie below the last letter "o" reinforces the fashion element. The bow tie can also be seen on the app's mascot</li>
-                    <li>Colours: The hanger, cat whiskers, and tie are have gradient colours, adding depth and visual interest to the logo. The most important element "Clotho" word is made most prominent by dark solid colour which also determines visula hierarchy.</li>
+                    <li>Colours: The hanger, cat whiskers, and tie have a gradient of #D6EFFF and #B399FF, adding depth and visual interest to the logo. The most important element "Clotho" word is made most prominent by dark solid colour #494EAC which also determines visula hierarchy.</li>
                 </ul>
             </p>
             </div>
@@ -111,7 +118,11 @@ export default function Logo() {
             </p>
 
             <p className={styles.bio}>
-            Clotho logo presented in Monochromatic colours of #494EAC. 
+            Clotho logo presented in Monochromatic colours of #494EAC.
+            <ul>
+              <li>Light mode: #494EAC for the word Clotho. 50% tint of #494EAC for the elements.</li>
+              <li>Dark mode: 50% tint of #494EAC for the word Clotho. 20% tint of #494EAC for the elements.</li>
+            </ul>
             </p>
             </div>
             <vl className={styles.vrLine}/>
@@ -236,9 +247,9 @@ export default function Logo() {
             </div>
             </div>
             <div className={styles.alterText}>
-            <h2 className={styles.title}>Alternative with Mascot and a Wordmark</h2>
+            <h2 className={styles.title}>Alternative Icon</h2>
             <p className={styles.bio}>
-              
+              The icon here is Clotho's mascot and can be used for favicon, if the full logo doesn't fit.
             </p>
             </div>
             </div>
@@ -268,7 +279,7 @@ export default function Logo() {
             <div className={styles.symbolText}>
             <h2 className={styles.title}>Symbol</h2>
             <p className={styles.bio}>
-              
+            The first letter of Clotho's logo and can be used as a symbol, if the full logo doesn't fit.
             </p>
             </div>
             </div>
