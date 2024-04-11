@@ -318,7 +318,7 @@ export default function Graphics() {
                             the mascot. A green cat represents a happy cat, a positive service experience, while 
                             a red cat with an angry face will mean a negative app-using experience. 
                         </p>
-                        <h3 className={`${styles.headline} ${styles.placeHolderSmall}`}>Inventory Category Page</h3>
+                        <h3 className={`${styles.subTitle} ${styles.placeHolderSmall}`}>Inventory Category Page</h3>
                         <p className={styles.paragraph}>
                             The Inventory Category Page serves as a central hub within the app, offering users a 
                             structured attractive way to browse through their stored products or items based on 
@@ -334,7 +334,7 @@ export default function Graphics() {
                             The inventory icons align with the entire app's styles and use the selected color 
                             swatch. We also provide dark mode for different user's preferences.
                         </p>
-                        <h3 className={`${styles.headline} ${styles.placeHolder}`}>Home Page</h3>
+                        <h3 className={`${styles.subTitle} ${styles.placeHolder}`}>Home Page</h3>
                         <p className={styles.paragraph}>
                             The Home Page serves as the primary gateway to the app, offering users a captivating 
                             and informative introduction to its features and content. 
@@ -381,14 +381,14 @@ export default function Graphics() {
 
                         <div className={styles.inventory}>
                             <Image 
-                            src={"/images/Inventory_categories.png"} 
+                            src={"/images/inventory_categories copy.png"} 
                             alt="Inventory category icons" 
                             width={215} 
                             height={466}
                             className={styles.categories}
                             />
                             <Image 
-                            src={"/images/Inventory_categories-dark.png"} 
+                            src={"/images/inventory_categories-dark copy.png"} 
                             alt="Inventory category icons_dark" 
                             width={215} 
                             height={466}
@@ -421,6 +421,7 @@ export default function Graphics() {
         </>
     )
 }
+
 
 
 
