@@ -7,6 +7,12 @@ import Navigation from "@/components/Navigation";
 export default function Layout() {
     return (
         <>
+        <Head>
+        <title>Clotho Styleguide</title>
+        <meta name="Clotho styleguide" content="The styleguide of Clotho" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/favicon-48x48.ico" />
+      </Head>
             <Navigation/>
             <main className={styles.main}>
                 <div>
