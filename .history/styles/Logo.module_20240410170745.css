@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 12rem 0 12rem;
+    min-height: 87vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    background:linear-gradient(180deg, #03164C 65.4%, #494EAC 94.14%);
+    color: white;
+}
+
+.fullColour {
+    display: flex;
+    
+}
+
+.fullColourText {
+    
+}
+
+.line {
+    width: 100%;
+    border-radius: 0.75px;
+    border: 2px solid #B8C0FF;
+  }
+
+.fullColourImage {
+    display: flex;
+    background: rgba(200, 200, 200, 0.75);
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.footer {
+    margin-top: 10rem;
+}
+

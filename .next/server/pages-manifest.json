@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Typography": "pages/Typography.js",
-  "/Layout": "pages/Layout.js",
+  "/Logo": "pages/Logo.js",
+  "/": "pages/index.js",
   "/Graphics": "pages/Graphics.js"
 }

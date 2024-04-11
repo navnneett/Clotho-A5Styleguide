@@ -1,0 +1,157 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 12rem 0 12rem;
+    min-height: 87vh;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    background:linear-gradient(180deg, #03164C 65.4%, #494EAC 94.14%);
+    color: white;
+}
+
+.fullColour {
+    display: flex;
+    
+}
+
+.fullColourText {
+    
+}
+
+.line {
+    width: 100%;
+    border-radius: 0.75px;
+    border: 2px solid #B8C0FF;
+    margin: 30px;
+  }
+
+.fullColourImage {
+    display: flex;
+    /*background: rgba(200, 200, 200, 0.75);
+    padding: 10px;
+    border-radius: 20px;*/
+    
+}
+
+.blackWhite {
+    display: flex;
+}
+
+.blackWhiteImage {
+    display: flex;
+}
+
+.greyMono {
+    display: flex;
+}
+
+.greyImage {
+    display: flex;
+    background: rgba(200, 200, 200, 0.75);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.monoImage {
+    display: flex;
+    background: rgba(200, 200, 200, 0.75);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.vrLine {
+    height: 430px;
+    border-radius: 0.75px;
+    border: 1px solid #B8C0FF;
+    margin: 15px;
+   
+  }
+
+.horiVert {
+    display: flex;
+}
+
+.whiteImage {
+    display: flex;
+    background: rgba(200, 200, 200, 0.75);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.darkImage {
+    display: flex;
+    background: rgba(200, 200, 200, 0.75);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.hrLine {
+    width: 800px;
+    border-radius: 0.75px;
+    border: 1px solid #B8C0FF;
+    margin: 15px;
+   
+  }
+
+.vrLineHoriVert {
+    height: 830px;
+    border-radius: 0.75px;
+    border: 1px solid #B8C0FF;
+    margin: 15px;
+   
+  }
+
+.lightVertLogo, .darkVertLogo {
+    padding-left: 40px;
+}
+
+.lightHoriLogo, .darkHoriLogo {
+    padding-top: 80px;
+}
+
+.alterSymbol {
+    display: flex;
+}
+
+.alterImage {
+    display: flex;
+    background: rgba(200, 200, 200, 0.75);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.symbolImage {
+    display: flex;
+    background: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.vrLineThree {
+    height: 390px;
+    border-radius: 0.75px;
+    border: 1px solid #B8C0FF;
+    margin: 15px;
+   
+  }
+
+.alterlogo {
+    padding: 10px;
+}
+
+.symbologo {
+    padding: 20px;
+}
+
+  .footer {
+    margin-top: 10rem;
+}
+
